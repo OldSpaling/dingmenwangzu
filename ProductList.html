@@ -35,8 +35,7 @@
         <script src="commonUtility.js"></script>
         <script>
             $.get("https://oldspaling.github.io/dingmenwangzu/product.json").then(function(response){
-                var data=JSON.parse(response);
-                $.each(data,function(index,value){
+                $.each(response,function(index,value){
                     $("product_container").append($("#product_template").text().format(value));
                 });
             });
