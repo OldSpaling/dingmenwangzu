@@ -1,0 +1,24 @@
+html{
+    min-height: 100%;
+}
+.red{
+    color: red;
+}
+.default-font-color{
+    color: #333;
+}
+.bolder{
+    font-weight: bold;
+}
+.indent{
+    text-indent: 2em;
+}
+.theme{
+    background: #b7a68e url(/content/brown_papersq.png);
+}
+.china-border-style{
+    -moz-border-image:url(/content/chinastyleborder.png) 30 30 repeat;	/* Old Firefox */
+    -webkit-border-image:url(/content/chinastyleborder.png) 30 30 repeat;	/* Safari and Chrome */
+    -o-border-image:url(/content/chinastyleborder.png) 30 30 repeat;	/* Opera */
+    border-image: url(../content/img/chinastyleborder.png) 10 10 repeat; 
+}

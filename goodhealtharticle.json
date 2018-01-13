@@ -1,0 +1,23 @@
+[
+    {
+        "title":"足疗养生，你知道多少？",
+        "simpleIntro":"为什么要进行足疗？足疗对身体有什么好处？他的原理又是什么？",
+        "articlelink":"predicure.html"
+    },
+    {
+        "title":"足道介绍",
+        "simpleIntro":"什么是足道，我们又为什么要进行足底按摩？",
+        "articlelink":"zudao.html"
+    },
+    {
+        "title":"中华古典姜足浴介绍",
+        "simpleIntro":"中华古典姜足浴有什么特点，它的养生原理又是什么，又能给身体带来什么样的好处呢？",
+        "articlelink":"gudianjiangyu.html"
+    },
+    
+    {
+        "title":"热石能量的作用和功效",
+        "simpleIntro":"热石是什么，它是以怎样的理疗原理给身体又能带来怎样的益处？",
+        "articlelink":"reshi.html"
+    }
+]

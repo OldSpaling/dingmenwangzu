@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>养生常识</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.0/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/template" id="article_template">
+        <a href="{articlelink}" class="weui-media-box weui-cell_access weui-media-box_appmsg" data-id="{Id}">
+                <div class="weui-media-box__bd">
+                    <h4 class="weui-media-box__title bolder">{title}</h4>
+                    <p class="weui-media-box__desc">
+                    {simpleIntro}
+                    </p>
+                </div>
+                <span class="weui-cell__ft"></span>
+            </a>
+    </script>
+</head>
+
+<body>
+    <div class="weui-panel weui-panel_access">
+        <!-- <div class="weui-panel__hd">产品列表</div> -->
+        <div class="weui-panel__bd" id="article_container">
+          
+        </div>
+        <script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/jquery-weui.min.js"></script>
+        <script src="commonUtility.js"></script>
+        <script>
+            $.get("goodhealtharticle.json").then(function(response){
+                $.each(response,function(index,value){
+                    $("#article_container").append($("#article_template").text().format(value));
+                });
+            });
+        </script>
+</body>
+
+</html>
