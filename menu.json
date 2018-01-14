@@ -1,65 +1,67 @@
-[
-    {
-        "name": "铭门旺足", 
-        "sub_button": [
-            {
-                "type": "view", 
-                "name": "如何到达", 
-                "url": "https://map.baidu.com/mobile/webapp/search/search/qt=swd=%E4%B8%AD%E5%B1%B1%E5%8C%BA%E5%BB%B6%E5%AE%89%E8%B7%AF%E4%B8%80%E5%BE%B7%E8%A1%9733%E5%8F%B7Knewmap=1ie=utf-8/vt=map", 
-                "sub_button": [ ]
-            }, 
-            {
-                "type": "view", 
-                "name": "产品服务表", 
-                "url": "https://oldspaling.github.io/dingmenwangzu/ProductList.html", 
-                "sub_button": [ ]
-            }, 
-            {
-                "type": "view", 
-                "name": "养生常识", 
-                "url": "https://oldspaling.github.io/dingmenwangzu/goodhealth.html", 
-                "sub_button": [ ]
-            }
-        ]
-    }, 
-    {
-        "name": "优惠促销", 
-        "sub_button": [
-            {
-                "type": "view", 
-                "name": "限时抢购", 
-                "url": "https://oldspaling.github.io/dingmenwangzu/xianshihuodong.html", 
-                "sub_button": [ ]
-            }, 
-            {
-                "type": "view", 
-                "name": "优惠活动", 
-                "url": "https://oldspaling.github.io/dingmenwangzu/xianshihuodong.html", 
-                "sub_button": [ ]
-            }, 
-            {
-                "type": "view", 
-                "name": "充值赠送", 
-                "url": "https://oldspaling.github.io/dingmenwangzu/xianshihuodong.html", 
-                "sub_button": [ ]
-            }
-        ]
-    }, 
-    {
-        "name": "关于", 
-        "sub_button": [
-            {
-                "type": "view", 
-                "name": "公司信息", 
-                "url": "https://oldspaling.github.io/dingmenwangzu/jianjie.html", 
-                "sub_button": [ ]
-            }, 
-            {
-                "type": "view", 
-                "name": "其他信息", 
-                "url": "https://oldspaling.github.io/dingmenwangzu/xianshihuodong.html", 
-                "sub_button": [ ]
-            }
-        ]
-    }
-]
+{
+    "button": [
+        {
+            "name": "铭门旺足",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "如何到达",
+                    "url": "https://map.baidu.com/mobile/webapp/search/search/qt=swd=%E4%B8%AD%E5%B1%B1%E5%8C%BA%E5%BB%B6%E5%AE%89%E8%B7%AF%E4%B8%80%E5%BE%B7%E8%A1%9733%E5%8F%B7Knewmap=1ie=utf-8/vt=map",
+                    "sub_button": []
+                },
+                {
+                    "type": "view",
+                    "name": "产品服务表",
+                    "url": "https://oldspaling.github.io/dingmenwangzu/ProductList.html",
+                    "sub_button": []
+                },
+                {
+                    "type": "view",
+                    "name": "养生常识",
+                    "url": "https://oldspaling.github.io/dingmenwangzu/goodhealth.html",
+                    "sub_button": []
+                }
+            ]
+        },
+        {
+            "name": "优惠促销",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "限时抢购",
+                    "url": "https://oldspaling.github.io/dingmenwangzu/xianshihuodong.html",
+                    "sub_button": []
+                },
+                {
+                    "type": "view",
+                    "name": "优惠活动",
+                    "url": "https://oldspaling.github.io/dingmenwangzu/xianshihuodong.html",
+                    "sub_button": []
+                },
+                {
+                    "type": "view",
+                    "name": "充值赠送",
+                    "url": "https://oldspaling.github.io/dingmenwangzu/xianshihuodong.html",
+                    "sub_button": []
+                }
+            ]
+        },
+        {
+            "name": "关于",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "公司信息",
+                    "url": "https://oldspaling.github.io/dingmenwangzu/jianjie.html",
+                    "sub_button": []
+                },
+                {
+                    "type": "view",
+                    "name": "其他信息",
+                    "url": "https://oldspaling.github.io/dingmenwangzu/xianshihuodong.html",
+                    "sub_button": []
+                }
+            ]
+        }
+    ]
+}
