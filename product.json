@@ -5,7 +5,8 @@
         "price":"88",
         "serviceTimeSpan":"60",
         "detail":"泡脚+松眉+足浴+锤道+松腿+松背",
-        "articleLink":"zudao.html"
+        "articleLink":"zudao.html",
+        "imgUrl":"/content/img/zu.jpg"
     },
     {
         "Id":"2",
@@ -13,7 +14,8 @@
         "price":"138",
         "serviceTimeSpan":"80",
         "detail":"姜汁泡脚+局部敷姜+小腿关节油压+锤道+松腿+松背",
-        "articleLink":"gudianjiangyu.html"
+        "articleLink":"gudianjiangyu.html",
+        "imgUrl":"/content/img/laojiang.jpg"
     },
     {
         "Id":"3",
@@ -21,7 +23,8 @@
         "price":"138",
         "serviceTimeSpan":"80",
         "detail":"姜汁泡脚+局部敷姜+小腿关节油压+锤道+松腿+松背",
-        "articleLink":"gudianjiangyu.html"
+        "articleLink":"gudianjiangyu.html",
+        "imgUrl":"/content/img/zu.jpg"
     },
     {
         "Id":"4",
@@ -29,7 +32,8 @@
         "price":"108",
         "serviceTimeSpan":"60",
         "detail":"泡脚+松眉+足道+热石按摩+锤道+松腿+松背",
-        "articleLink":"reshi.html"
+        "articleLink":"reshi.html",
+        "imgUrl":"/content/img/reshi.jpg"
     },
     {
         "Id":"5",
@@ -37,7 +41,8 @@
         "price":"108",
         "serviceTimeSpan":"70",
         "detail":"全身按摩+按头",
-        "articleLink":"predicure.html"
+        "articleLink":"predicure.html",
+        "imgUrl":"/content/img/chanshizhiya.jpg"
     },
     {
         "Id":"6",
@@ -45,7 +50,8 @@
         "price":"178",
         "serviceTimeSpan":"70",
         "detail":"精油推拿人体十二正经+腹疗",
-        "articleLink":"aijiu.html"
+        "articleLink":"aijiu.html",
+        "imgUrl":"/content/img/jingluo.jpg"
     },
     {
         "Id":"7",
@@ -53,7 +59,8 @@
         "price":"238",
         "serviceTimeSpan":"120",
         "detail":"足浴+人体十二正经+按头",
-        "articleLink":"predicure.html"
+        "articleLink":"predicure.html",
+        "imgUrl":"/content/img/jingluo.jpg"
     },
     {
         "Id":"8",
@@ -61,7 +68,8 @@
         "price":"198",
         "serviceTimeSpan":"110",
         "detail":"姜汁泡脚+局部敷姜+足底按摩+小腿关节油压+背压+背部敷姜+松腿",
-        "articleLink":"gudianjiangyu.html"
+        "articleLink":"gudianjiangyu.html",
+        "imgUrl":"/content/img/jingluo.jpg"
     },
     {
         "Id":"9",
@@ -69,7 +77,8 @@
         "price":"98",
         "serviceTimeSpan":"40",
         "detail":"灸上腕+下腕+关节+命门",
-        "articleLink":"aijiu.html"
+        "articleLink":"aijiu.html",
+        "imgUrl":"/content/img/gubenjiu.jpg"
     },
     {
         "Id":"10",
@@ -77,7 +86,8 @@
         "price":"108",
         "serviceTimeSpan":"40",
         "detail":"灸上腕+中腕+下腕+八骨穴",
-        "articleLink":"aijiu.html"
+        "articleLink":"aijiu.html",
+        "imgUrl":"/content/img/gubenjiu.jpg"
     },
     {
         "Id":"11",
@@ -85,7 +95,8 @@
         "price":"88",
         "serviceTimeSpan":"30",
         "detail":"灸 神阙+闪关",
-        "articleLink":"aijiu.html"
+        "articleLink":"aijiu.html",
+        "imgUrl":"/content/img/gubenjiu.jpg"
     },
     {
         "Id":"12",
@@ -93,7 +104,8 @@
         "price":"68",
         "serviceTimeSpan":"30",
         "detail":"针对头颈肩腰腿任意一项",
-        "articleLink":"#"
+        "articleLink":"#",
+        "imgUrl":"/content/img/gubenjiu.jpg"
     },
     {
         "Id":"13",
@@ -101,7 +113,8 @@
         "price":"78",
         "serviceTimeSpan":"30",
         "detail":"针对胃胀胃酸过多",
-        "articleLink":"reshi.html"
+        "articleLink":"reshi.html",
+        "imgUrl":"/content/img/reshi_s.jpg"
     },
     {
         "Id":"14",
@@ -109,7 +122,8 @@
         "price":"88",
         "serviceTimeSpan":"30",
         "detail":"针对肩颈腰臀部推拿",
-        "articleLink":"#"
+        "articleLink":"#",
+        "imgUrl":"/content/img/youya.jpg"
     },
     {
         "Id":"15",
@@ -117,7 +131,8 @@
         "price":"68",
         "serviceTimeSpan":"20",
         "detail":"",
-        "articleLink":"#"
+        "articleLink":"#",
+        "imgUrl":"/content/img/guasha.jpg"
     },
     {
         "Id":"16",
@@ -125,7 +140,8 @@
         "price":"68",
         "serviceTimeSpan":"20",
         "detail":"",
-        "articleLink":"#"
+        "articleLink":"#",
+        "imgUrl":"/content/img/baguan.jpg"
     },
     {
         "Id":"17",
@@ -133,7 +149,8 @@
         "price":"68",
         "serviceTimeSpan":"30",
         "detail":"脚趾甲和去死皮",
-        "articleLink":"#"
+        "articleLink":"#",
+        "imgUrl":"/content/img/xiujiao.jpg"
     }
 ]
    
