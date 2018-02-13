@@ -8,14 +8,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
       <meta name="viewport" content="width=device-width,initial-scale=1" />
     <!--<base target="_blank" href="http://keleyi.com/keleyi/phtml/html5/" />-->
-    <link type="text/css" rel="stylesheet" href="http://keleyi.com/keleyi/phtml/html5/31/renxi/default.css">
-    <script type="text/javascript" src="http://keleyi.com/keleyi/pmedia/jquery/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="http://keleyi.com/keleyi/phtml/html5/31/renxi/jscex.min.js"></script>
-    <script type="text/javascript" src="http://keleyi.com/keleyi/phtml/html5/31/renxi/jscex-parser.js"></script>
-    <script type="text/javascript" src="http://keleyi.com/keleyi/phtml/html5/31/renxi/jscex-jit.js"></script>
-    <script type="text/javascript" src="http://keleyi.com/keleyi/phtml/html5/31/renxi/jscex-builderbase.min.js"></script>
-    <script type="text/javascript" src="http://keleyi.com/keleyi/phtml/html5/31/renxi/jscex-async.min.js"></script>
-    <script type="text/javascript" src="http://keleyi.com/keleyi/phtml/html5/31/renxi/jscex-async-powerpack.min.js"></script>
+    <style>
+        body{margin:0;padding:0;background:#ffe;font-size:14px;font-family:'å¾®è½¯é›…é»‘','å®‹ä½“',sans-serif;color:#231F20;overflow:auto}
+        a {color:#000;font-size:14px;}
+        #main{width:100%;}
+        #wrap{position:relative;margin:0 auto;width:1100px;height:680px;margin-top:10px;}
+        #text{width:400px;height:425px;left:60px;top:80px;position:absolute;}
+        #code{display:none;font-size:16px;}
+        #clock-box {position:absolute;left:60px;top:400px;font-size:28px;display:block;}
+        #clock-box a {font-size:28px;text-decoration:none;}
+        #clock{margin-left:48px;}
+        #clock .digit {font-size:64px;}
+        #keleyi{margin:0 auto;width:1100px;height:680px;}
+        #error{margin:0 auto;text-align:center;margin-top:60px;display:none;}
+        .hand{cursor:pointer;}
+        .say{margin-left:5px;}
+        .space{margin-right:150px;}
+    </style>
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+(function(){var b={DEBUG:1,INFO:2,WARN:3,ERROR:4},d=function(){this.level=b.WARN};d.prototype={log:function(a){try{console.log(a)}catch(b){}},debug:function(a){this.level<=b.DEBUG&&this.log(a)},info:function(a){this.level<=b.INFO&&this.log(a)},warn:function(a){this.level<=b.WARN&&this.log(a)},error:function(a){this.level<=b.ERROR&&this.log(a)}};var e=function(a){var b=[],c;for(c in a)b.push(c);return b},c=function(a){a._forInKeys=e;a.Logging={Logger:d,Level:b};a.logger=new d;a.modules={};a.binders=
+{};a.builders={}},f=typeof define==="function"&&!define.amd,g=typeof require==="function"&&typeof define==="function"&&define.amd;typeof require==="function"&&typeof module!=="undefined"&&module.exports?c(module.exports):f?define("jscex",function(a,b,d){c(d.exports)}):g?define("jscex",function(){var a={};c(a);return a}):(typeof Jscex=="undefined"&&(Jscex={}),c(Jscex))})();
+    </script>
+    <script type="text/javascript" src="/dingmenwangzu/content/js/jscex-parser.js"></script>
+    <script type="text/javascript" src="/dingmenwangzu/content/js/jscex-jit.js"></script>
+    <script type="text/javascript" src="/dingmenwangzu/content/js/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="/dingmenwangzu/content/js/jscex-async.min.js"></script>
+    <script type="text/javascript" src="/dingmenwangzu/content/js/jscex-async-powerpack.min.js"></script>
     <script type="text/javascript" charset="utf-8">
         var $win = $(window);
         var clientWidth = $win.width();
